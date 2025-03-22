@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "arduino.h": "c",
+        "type_traits": "cpp",
+        "sam.h": "c",
+        "samd21.h": "c",
+        "samd21g18au.h": "c",
+        "samd21g18a.h": "c",
+        "gclk.h": "c",
+        "samd.h": "c"
+    }
+}
