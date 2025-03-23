@@ -104,7 +104,7 @@ void print_instruction(int state)
   case 0:
     clearSerialMonitor();
     Serial.println(".----------------------------------------------------.");
-    Serial.println("|                 Ngồi im hong làm gì                |");
+    Serial.println("|                     Chế độ chờ                     |");
     Serial.println("`----------------------------------------------------´");
     Serial.println("|                                                    |");
     Serial.println("|     Rất tiếc, không có gì ở đây cả  ┑(￣Д ￣)┍     |");
@@ -115,7 +115,7 @@ void print_instruction(int state)
   case 1:
     clearSerialMonitor();
     Serial.println(".----------------------------------------------------.");
-    Serial.println("|                    Đèn póng đêm                    |");
+    Serial.println("|                       Đèn đêm                      |");
     Serial.println("`----------------------------------------------------´");
     Serial.println("|                                                    |");
     Serial.println("|  Chờ trời tối và lắc, đèn sẽ sáng...  乁( ◔ ౪◔)「  |");
@@ -140,10 +140,10 @@ void print_instruction(int state)
   case 3:
     clearSerialMonitor();
     Serial.println(".----------------------------------------------------.");
-    Serial.println("|                       ò e í e                      |");
+    Serial.println("|                      ò e í e                       |");
     Serial.println("`----------------------------------------------------´");
     Serial.println("|                                                    |");
-    Serial.println("|           anh iu em hí hí  (づ｡◕‿‿◕｡)づ            |");
+    Serial.println("|                    (づ｡◕‿‿◕｡)づ                    |");
     Serial.println("|                                                    |");
     Serial.println("`----------------------------------------------------´");
     Serial.println();
